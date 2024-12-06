@@ -1,0 +1,149 @@
+/* تنسيق عام */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+}
+
+/* الحاوية الأساسية */
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* جدول البيانات */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* ترويسة الجدول */
+table thead {
+    background-color: #003366;  /* الأزرق الداكن */
+    color: white;
+}
+
+/* تنسيق صفوف الجدول */
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* الأزرار */
+.btn {
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+/* أزرار الموافقة والرفض */
+.btn-success {
+    background-color: #4CAF50;  /* أخضر */
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+.btn-danger {
+    background-color: #f44336;  /* أحمر */
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #e53935;
+}
+
+.btn-warning {
+    background-color: #ff9800;  /* برتقالي */
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #fb8c00;
+}
+
+/* التنسيق للأسطر */
+footer {
+    background-color: #003366; /* نفس اللون الأزرق الداكن */
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* الحقول */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* اللون البرتقالي للـ Pending */
+.bg-warning {
+    background-color: #ff9800 !important;
+    color: white;
+}
+
+/* اللون الأحمر للـ Rejected */
+.bg-danger {
+    background-color: #f44336 !important;
+    color: white;
+}
+
+/* اللون الأخضر للـ Approved */
+.bg-success {
+    background-color: #4CAF50 !important;
+    color: white;
+}
